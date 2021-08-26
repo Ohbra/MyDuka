@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.Core", "MyDuka.Core\MyDuka.Core.csproj", "{80828FF2-ECA5-4853-9042-164B5B90250E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.DataAccess.InMemory", "MyDuka.DataAccess.InMemory\MyDuka.DataAccess.InMemory.csproj", "{D7B1C371-3624-45B9-893D-3EB6D33E4F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.Services", "MyDuka.Services\MyDuka.Services.csproj", "{EE88D792-2ABA-497E-AC4F-BA00E62110A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.WebUI", "MyDuka.WebUI\MyDuka.WebUI.csproj", "{2330280D-DA71-4903-94BA-3AE5126599D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.WebUI.Tests", "MyDuka.WebUI.Tests\MyDuka.WebUI.Tests.csproj", "{722CBF2B-68B6-483E-949C-96EEAC1283FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDuka.DataAccess.SQL", "MyDuka.DataAccess.SQL\MyDuka.DataAccess.SQL.csproj", "{3FD2A189-47EB-421B-BCDD-3BF85E4D6368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80828FF2-ECA5-4853-9042-164B5B90250E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80828FF2-ECA5-4853-9042-164B5B90250E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80828FF2-ECA5-4853-9042-164B5B90250E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80828FF2-ECA5-4853-9042-164B5B90250E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B1C371-3624-45B9-893D-3EB6D33E4F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B1C371-3624-45B9-893D-3EB6D33E4F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B1C371-3624-45B9-893D-3EB6D33E4F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B1C371-3624-45B9-893D-3EB6D33E4F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE88D792-2ABA-497E-AC4F-BA00E62110A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE88D792-2ABA-497E-AC4F-BA00E62110A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE88D792-2ABA-497E-AC4F-BA00E62110A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE88D792-2ABA-497E-AC4F-BA00E62110A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2330280D-DA71-4903-94BA-3AE5126599D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2330280D-DA71-4903-94BA-3AE5126599D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2330280D-DA71-4903-94BA-3AE5126599D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2330280D-DA71-4903-94BA-3AE5126599D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722CBF2B-68B6-483E-949C-96EEAC1283FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722CBF2B-68B6-483E-949C-96EEAC1283FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722CBF2B-68B6-483E-949C-96EEAC1283FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722CBF2B-68B6-483E-949C-96EEAC1283FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD2A189-47EB-421B-BCDD-3BF85E4D6368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD2A189-47EB-421B-BCDD-3BF85E4D6368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD2A189-47EB-421B-BCDD-3BF85E4D6368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD2A189-47EB-421B-BCDD-3BF85E4D6368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39166B17-B05C-4562-89BF-17EAB70325FE}
+	EndGlobalSection
+EndGlobal
